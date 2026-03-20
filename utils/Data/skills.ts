@@ -1,0 +1,21 @@
+export const skillsData = [
+  "Python",
+  "C++",
+  "Java",
+  "NumPy",
+  "Pandas",
+  "Matplotlib",
+  "Seaborn",
+  "Streamlit",
+  "Scikit-learn",
+  "Machine Learning",
+  "Data Analysis",
+  "Data Visualization",
+  "Statistical Analysis",
+  "Power BI",
+  "Excel",
+  "Jupyter Notebook",
+  "Google Colab",
+  "Git",
+  "GitHub"
+];
