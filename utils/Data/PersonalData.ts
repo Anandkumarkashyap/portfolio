@@ -20,8 +20,8 @@ export const personalData = {
   linkedIn: "https://www.linkedin.com/in/anandkr05",
   codolio: "https://codolio.com/profile/",
   stackOverflow: "https://stackoverflow.com",
-  devUsername: "aaniket21",
+  devUsername: "anandkashyap6048",
   leetcode: "https://leetcode.com/u/anandkashyap6048/",
   resume:
-    "https://drive.google.com/file/d/1w76BKVQ6Hgo1OVcmTgto4heXVlPA6I59/view?usp=drive_link",
+    "https://drive.google.com/file/d/1XgM5PUzDgM-Tpij9q_ciI0cTD5F7p1Rp/view?usp=sharing",
 };

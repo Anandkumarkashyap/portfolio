@@ -97,7 +97,7 @@ function About() {
               </div>
               <div className="w-[1px] h-10 bg-white/10" />
               <div className="flex flex-col">
-                <span className="text-3xl font-black text-white">3+</span>
+                <span className="text-3xl font-black text-white">5+</span>
                 <span className="text-xs text-slate-500 uppercase tracking-widest font-bold">
                   Projects Built
                 </span>

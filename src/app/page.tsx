@@ -1,4 +1,5 @@
 import About from "./components/about/page";
+import Certificates from "./components/certificates/index";
 import Contact from "./components/contact/index";
 import Education from "./components/education/page";
 import Experience from "./components/experience/page";
@@ -32,6 +33,10 @@ export default function Home() {
 
         <SectionReveal>
           <Projects />
+        </SectionReveal>
+
+        <SectionReveal>
+          <Certificates />
         </SectionReveal>
 
         <SectionReveal>

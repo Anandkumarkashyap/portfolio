@@ -1,7 +1,7 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor of Technology - Computer Science & Engineering | CGPA: 6.3",
+    title: "Bachelor of Technology - Computer Science & Engineering | CGPA: 6.53",
     duration: "Since August 2023",
     institution: "Lovely Professional University, Phagwara, Punjab",
   },
