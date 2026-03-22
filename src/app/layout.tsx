@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Anand Kumar | Data Analyst Portfolio",
     description:
       "Data Analyst & ML Enthusiast — Building AI-powered systems, dashboards, and data-driven solutions using Python, Power BI, and Streamlit.",
-    url: "https://aaniket21.vercel.app",
+    url: "https://anandportfolio-nine.vercel.app/",
     siteName: "Anand Kumar Portfolio",
     images: [
       {
