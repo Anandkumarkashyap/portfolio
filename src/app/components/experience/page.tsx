@@ -64,7 +64,7 @@ function Experience() {
                               className="flex gap-3 items-start group/item"
                             >
                               <ChevronRight className="w-4 h-4 text-blue-600 mt-1 shrink-0 group-hover/item:translate-x-1 transition-transform" />
-                              <p className="text-slate-400 text-sm lg:text-base leading-relaxed group-hover/item:text-slate-200 transition-colors">
+                              <p className="text-slate-200 text-base lg:text-lg leading-relaxed group-hover/item:text-white transition-colors">
                                 {detail}
                               </p>
                             </div>
