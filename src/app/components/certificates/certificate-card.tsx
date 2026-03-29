@@ -15,6 +15,7 @@ interface CertificateCardProps {
     id: number;
     name: string;
     img: string;
+    logo?: string;
     gdrive: string;
   };
 }
