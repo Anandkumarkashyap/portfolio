@@ -23,26 +23,20 @@ function Experience() {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 relative">
+      <div className="w-full mx-auto px-4 relative">
         {/* Central Timeline Line */}
-        <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-blue-600 via-blue-950 to-transparent opacity-30" />
+        <div className="absolute left-4 top-0 bottom-0 w-[2px] bg-gradient-to-b from-blue-600 via-blue-950 to-transparent opacity-30" />
 
         <div className="flex flex-col gap-16 lg:gap-24">
-          {experiences.map((exp, index) => (
+          {experiences.map((exp) => (
             <div key={exp.id} className="relative">
-              <SectionReveal direction={index % 2 === 0 ? "right" : "left"}>
-                <div
-                  className={`flex flex-col md:flex-row items-center gap-8 ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"}`}
-                >
-                  {/* Timeline Dot */}
-                  <div className="absolute left-4 md:left-1/2 md:-translate-x-1/2 top-0 w-10 h-10 rounded-xl bg-[#050505] border-2 border-blue-600 flex items-center justify-center z-10 shadow-[0_0_15px_rgba(220,38,38,0.5)]">
-                    <BsPersonWorkspace className="text-blue-600 w-5 h-5" />
-                  </div>
+              <SectionReveal direction="left">
+                <div className="flex flex-col items-start gap-8 md:pl-0">
 
-                  {/* Date Badge (Mobile: visible, Desktop: visible) */}
-                  <div
-                    className={`w-full md:w-1/2 flex ${index % 2 === 0 ? "md:justify-end" : "md:justify-start"}`}
-                  >
+                  
+
+                  {/* Date Badge (Mobile and Desktop: left aligned) */}
+                  <div className="w-full flex justify-start">
                     <div className="bg-white/5 backdrop-blur-sm border border-white/10 px-4 py-2 rounded-full flex items-center gap-2 text-slate-400 text-sm font-medium">
                       <Calendar className="w-4 h-4 text-blue-600" />
                       {exp.duration}
@@ -50,11 +44,9 @@ function Experience() {
                   </div>
 
                   {/* Content Card */}
-                  <div
-                    className={`w-full md:w-1/2 ${index % 2 === 0 ? "md:text-left" : "md:text-left"}`}
-                  >
-                    <div className="group relative p-8 rounded-3xl border border-white/10 bg-white/[0.02] backdrop-blur-md hover:border-blue-600/50 transition-all duration-500 shadow-xl hover:shadow-blue-600/10">
-                      <div className="flex flex-col gap-4">
+                  <div className="w-full text-left">
+                    <div className="group relative p-8 rounded-3xl border border-white/10 bg-white/[0.02] backdrop-blur-md hover:border-blue-600/50 transition-all duration-500 shadow-xl hover:shadow-blue-600/10 min-h-[260px] md:min-h-[320px] lg:min-h-[380px] flex items-center justify-center">
+                      <div className="flex flex-col gap-4 w-full">
                         <div className="flex flex-col gap-1">
                           <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
                             {exp.title}

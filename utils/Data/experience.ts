@@ -13,7 +13,7 @@ export const experiences = [
   },
   {
     id: 2,
-    title: "Data Structures & Algorithms Trainee",
+    title: "Training in Data Structures & Algorithms",
     company: "Cipher Schools",
     duration: "June 2025 – July 2025",
     details: [

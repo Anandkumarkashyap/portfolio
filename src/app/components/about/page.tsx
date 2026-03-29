@@ -70,7 +70,7 @@ function About() {
               <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
                 About{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800">
-                  The Architect
+                  Me
                 </span>
               </h2>
             </div>

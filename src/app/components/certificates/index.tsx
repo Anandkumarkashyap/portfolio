@@ -30,13 +30,13 @@ const Certificates = () => {
               Professional Achievements
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tighter">
-              Credentials &{" "}
+              {" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800">
                 Certifications
               </span>
             </h2>
             <p className="mt-6 max-w-2xl text-slate-400 text-lg leading-relaxed font-medium mx-auto">
-              A collection of professional certifications and credentials that validate my expertise and commitment to continuous learning.
+              A collection of professional certifications that validate my expertise and commitment to continuous learning.
             </p>
           </div>
 

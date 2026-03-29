@@ -48,28 +48,28 @@ const CertificateCard = ({ certificate }: CertificateCardProps) => {
 
       <Card className="relative flex flex-col h-full justify-between border border-white/10 bg-[#050505]/20 backdrop-blur-xl rounded-2xl shadow-2xl overflow-hidden transition-all duration-500 hover:border-blue-600/50 hover:shadow-blue-600/10">
         {/* Certificate Image */}
-        <div className="relative overflow-hidden aspect-square">
-          <Image
-            src={certificate.img}
-            width={400}
-            height={400}
-            alt={certificate.name}
-            className="object-fit h-full transition-transform duration-700 group-hover:scale-110"
-          />
-
-          {/* Overlay Gradient */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-transparent to-transparent opacity-80" />
-
-          {/* Award Icon Badge */}
-          <div className="absolute top-4 right-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white p-3 rounded-full shadow-lg border border-white/10 group-hover:scale-110 transition-transform">
-            <Award size={20} />
-          </div>
-        </div>
+       
 
         <CardContent className="pt-6 pb-4 flex-1 flex flex-col justify-center">
-          <h3 className="text-xl font-bold text-white mb-2 line-clamp-2">
-            {certificate.name}
-          </h3>
+          <div className="flex items-center gap-3 mb-2">
+            <Link
+              href={certificate.gdrive}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-12 h-12 rounded-xl overflow-hidden border border-white/10 bg-[#0f172a]/40 flex-shrink-0"
+            >
+              <Image
+                src={certificate.logo || certificate.img}
+                width={48}
+                height={48}
+                alt={`${certificate.name} logo`}
+                className="w-full h-full object-cover transition-transform duration-200 hover:scale-105"
+              />
+            </Link>
+            <h3 className="text-xl font-bold text-white line-clamp-2">
+              {certificate.name}
+            </h3>
+          </div>
         </CardContent>
 
         {/* Footer with Links */}
@@ -83,15 +83,7 @@ const CertificateCard = ({ certificate }: CertificateCardProps) => {
               <span>View</span>
             </Button>
           </Link>
-          <Link href={certificate.gdrive} target="_blank" rel="noopener noreferrer">
-            <Button
-              variant="ghost"
-              size="icon"
-              className="bg-blue-600/10 hover:bg-blue-600/20 text-blue-400 hover:text-blue-300 border border-blue-600/30 rounded-lg transition-all duration-300"
-            >
-              <ExternalLink size={18} />
-            </Button>
-          </Link>
+          
         </CardFooter>
       </Card>
     </div>

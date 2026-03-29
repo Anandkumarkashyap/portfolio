@@ -113,18 +113,14 @@ const HeroSection = () => {
         {/* Left Side: Content */}
         <div className="order-2 lg:order-1 flex flex-col items-start gap-8">
           <div className="flex flex-col gap-4">
-            <span className="hero-tag px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-500 text-xs font-bold tracking-[0.3em] w-fit">
-              WELCOME TO MY UNIVERSE
-            </span>
+            
             <h1 className="hero-heading text-5xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1]">
-              Engineering{" "}
+              {" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-800">
-                Predictive
+                Data Science
               </span>
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-blue-950">
-                Architectures
-              </span>
+              
             </h1>
             <p className="hero-heading text-lg md:text-xl text-slate-400 max-w-xl leading-relaxed font-medium">
               I'm{" "}
