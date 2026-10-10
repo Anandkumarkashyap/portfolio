@@ -181,14 +181,6 @@ const HeroSection = () => {
                 </span>
               </Link>
 
-              <Link
-                href={personalData.resume}
-                target="_blank"
-                className="group px-8 py-4 rounded-2xl border border-white/10 bg-white/5 text-white font-bold uppercase tracking-wider transition-all hover:bg-white/10 hover:border-blue-500/50 flex items-center gap-2"
-              >
-                Get Resume{" "}
-                <MdDownload className="group-hover:translate-y-1 transition-transform" />
-              </Link>
             </div>
           </div>
         </div>
