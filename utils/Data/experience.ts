@@ -1,5 +1,16 @@
 export const experiences = [
   {
+    id: 3,
+    title: "Intern",
+    company: "Springrole India Pvt. Ltd. (Springworks)",
+    duration: "July 2026 – September 2026",
+    details: [
+      "Verified and analyzed candidate/case data using SpringVerify, Keka, backend systems, and Excel/Google Sheets to identify missing or inconsistent information.",
+      "Managed end-to-end case workflows by initiating cases, cross-checking records across internal systems, updating databases, and transferring verified cases to the Follow-up Team.",
+      "Improved data accuracy and workflow efficiency through validation, discrepancy identification and timely updates."
+    ],
+  },
+  {
     id: 1,
     title: "Data Science Intern",
     company: "TechSaksham (Microsoft & SAP Initiative)",

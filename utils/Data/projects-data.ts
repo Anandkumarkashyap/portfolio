@@ -1,5 +1,52 @@
 export const projectsData = [
   {
+    id: 6,
+    name: "Bihar Swasth Setu",
+    description: "Built a healthcare decision-support platform covering 201 hospitals across 38 Bihar districts, processing hospital, location, specialty, and resource recommendations.",
+    tools: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "SQLite",
+      "Streamlit"
+    ],
+    role: "Full Stack Developer",
+    code: "https://github.com/Anandkumarkashyap",
+    demo: "",
+    date: "September 2026",
+    images: ["/assets/projects/teamwork.png"],
+    videos: [""],
+    highlights: [
+      "Built a healthcare decision-support platform covering 201 hospitals across 38 Bihar districts.",
+      "Developed a ranking system using distance, bed/ICU availability, specialty, and ML trends.",
+      "Implemented Random Forest forecasting to predict resource availability 30–60 minutes ahead with interactive maps."
+    ],
+    challenges: []
+  },
+  {
+    id: 7,
+    name: "Digital Coupon Organiser",
+    description: "Addressed the challenge of inefficient coupon organization and discovery by designing a centralized digital coupon management system.",
+    tools: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB"
+    ],
+    role: "Full Stack Developer",
+    code: "https://github.com/Anandkumarkashyap",
+    demo: "",
+    date: "December 2025",
+    images: ["/assets/projects/teamwork.png"],
+    videos: [""],
+    highlights: [
+      "Addressed the challenge of inefficient coupon organization by designing a centralized management system.",
+      "Implemented RESTful APIs and interactive UI workflows covering 4 key operations: creation, updates, validation, retrieval.",
+      "Optimized data handling and user interactions delivering a scalable and responsive coupon management experience."
+    ],
+    challenges: []
+  },
+  {
   id: 1,
   name: "Predictive Customer Retention & Churn Risk Analytics",
   description:
@@ -15,7 +62,7 @@ export const projectsData = [
     "Excel"
   ],
   role: "Machine Learning Engineer / Data Analyst",
-  code: "",
+    code: "https://github.com/Anandkumarkashyap",
   demo: "",
   date: "January 2026",
   images: ["/assets/projects/dashboard/image.png"],
@@ -46,7 +93,7 @@ export const projectsData = [
       "Data Modeling"
     ],
     role: "Data Analyst",
-    code: "",
+      code: "https://github.com/Anandkumarkashyap",
     demo: "",
     date: "November 2025",
     images: ["/assets/projects/dashboard/image.png"],
@@ -75,7 +122,7 @@ export const projectsData = [
       "Seaborn"
     ],
     role: "Data Analyst",
-    code: "",
+      code: "https://github.com/Anandkumarkashyap",
     demo: "",
     date: "May 2025",
     images: ["/assets/projects/ev/image.png"],
@@ -103,7 +150,7 @@ export const projectsData = [
       "Streamlit"
     ],
     role: "Data Science Developer",
-    code: "",
+      code: "https://github.com/Anandkumarkashyap",
     demo: "",
     date: "April 2025",
     images: ["/assets/projects/disease/image.png"],
@@ -130,7 +177,7 @@ export const projectsData = [
       "JavaScript"
     ],
     role: "Frontend Developer",
-    code: "",
+      code: "https://github.com/Anandkumarkashyap",
     demo: "",
     date: "December 2023",
     images: ["/assets/projects/gurukul/image.png"],
